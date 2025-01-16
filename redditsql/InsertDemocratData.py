@@ -10,8 +10,8 @@ db_name = "your_database"  # Replace with your target database name
 table_name = "reddit_opinion"  # Name of the table to insert data into
 
 # File path for the CSV
-csv_file_pathDems = r"C:\Users\lyamd\Downloads\reddit_opinion_democrats.csv"
-csv_file_pathReps = r"C:\Users\lyamd\Downloads\reddit_opinion_republican.csv"
+csv_file_pathDems = r"\csv\reddit_opinion_democrats.csv"
+csv_file_pathReps = r"\csv\reddit_opinion_republican.csv"
 
 # Create database engine using SQLAlchemy (recommended for Pandas)
 engine = create_engine(f"mysql+mysqlconnector://{db_user}:{db_password}@{db_host}/{db_name}")
