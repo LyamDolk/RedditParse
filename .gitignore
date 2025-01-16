@@ -1,3 +1,4 @@
 /.venv
 /csv
-/redditsql/.env
+redditsql/.env
+redditsql/.env
